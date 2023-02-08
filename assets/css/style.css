@@ -42,6 +42,12 @@ aside{
 
 /* ##### SECTION #### */
 
+/* Centrer le contenu de la section avec Flexbox*/
+#infos{
+	display: flex;
+	flex-direction: column;
+}
+
 h1{
 	width: 50%;
 	padding: 10px;
@@ -257,6 +263,8 @@ footer{
 		background-color: #fff;
 	}
 }
+
+/* Changer la disposition de la navbar en fonction de la taille de l'écran */
 @media screen and (max-width: 991px) {
 	nav ul li:last-child{
 		margin-left: 0;
@@ -267,6 +275,7 @@ footer{
 	}
 }
 
+/* Changer la disposition des éléments en fonction de la taille de l'écran */
 @media screen and (max-width: 1024px) {
 	#marriedName{
 		display: none;
