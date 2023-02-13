@@ -42,7 +42,7 @@ aside{
 
 /* ##### SECTION #### */
 
-/* Centrer le contenu de la section avec Flexbox*/
+/* Centrer verticalement le contenu de la section avec Flexbox*/
 #infos{
 	display: flex;
 	flex-direction: column;
@@ -252,6 +252,10 @@ footer{
 	padding-top: 15px;
 	border-radius: 10px;
 	background-color: #333;
+	color: #fff;
+}
+
+footer a{
 	color: #fff;
 }
 
